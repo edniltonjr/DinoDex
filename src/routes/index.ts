@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import dinosRouter from '../routes/dinosRouter.routes';
+import dinosRouter from './dinosRouter.routes';
 
 const routes = Router();
 

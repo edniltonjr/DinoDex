@@ -9,6 +9,8 @@ app.use(routes);
 
 app.get('/', (request, response) => response.json({ message: 'Hello World' }));
 
-app.listen(3335, () => {
+const port = process.env.PORT || 3335;
+
+app.listen(port, () => {
   console.log('Servidor Iniciado na porta 3333!');
 });
